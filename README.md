@@ -10,5 +10,11 @@ screen recording with commentary.
 The collection is getting too big to keep in the main repo and they really
 should be public and easy to access anyway.
 
+I'll try to keep these somewhat organized.
 
-I'll try to keep these organized.
+
+Gallery
+=======
+
+![fake_3d_cityscape](screenshots/fake_3d_cityscape.png)
+![sphereworld](screenshots/geometric_play.png)

@@ -1,0 +1,44 @@
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.dll.*
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# packages
+*.zip
+*.tar.gz
+
+# misc
+*~
+*.kate-swp
+CMakeFiles/*
+CMakeCache.txt
+cmake_install.cmake
+stats/*
+build/*
+!build/Makefile
+!build/*.make
+*.swp
+tags
+
+package/*
+scratch/*
+
+# Doxygen output
+doc/*
+latex/*
+html/*
+

@@ -20,3 +20,4 @@ Gallery
 ![sphereworld](screenshots/geometric_play.png)
 ![music_pirates_mipmapped](screenshots/music_pirates_mipmapped.png)
 ![music_pirates](screenshots/music_pirates.png)
+![the_cave_mipmapped](screenshots/the_cave_mipmapped.png)

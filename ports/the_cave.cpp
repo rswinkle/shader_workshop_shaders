@@ -290,11 +290,11 @@ extern "C" {
 
 void set_channels(texture_settings* ts)
 {
-	ts[0].ch = 9;
+	ts[0].ch = TEX_LICHEN;
 	SET_DFLT_TEX_PARAMS(ts[0]);
-	ts[1].ch = 12;
+	ts[1].ch = TEX_ORGANIC_1;
 	SET_DFLT_TEX_PARAMS(ts[1]);
-	ts[2].ch = 13;
+	ts[2].ch = TEX_ORGANIC_2;
 	SET_DFLT_TEX_PARAMS(ts[2]);
 	reset_defaults();
 }

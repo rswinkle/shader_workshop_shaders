@@ -354,19 +354,19 @@ extern "C" {
 
 void set_channels(texture_settings* ts)
 {
-	ts[0].ch = 9;
+	ts[0].ch = TEX_LICHEN;
 	SET_DFLT_TEX_PARAMS(ts[0]);
 	ts[0].filter = TS_LINEAR;
 	ts[0].wrap = TS_REPEAT;
 	ts[0].mipmap = GL_TRUE;
 
-	ts[1].ch = 12;
+	ts[1].ch = TEX_ORGANIC_1;
 	SET_DFLT_TEX_PARAMS(ts[1]);
 	ts[1].filter = TS_LINEAR;
 	ts[1].wrap = TS_REPEAT;
 	ts[1].mipmap = GL_TRUE;
 
-	ts[2].ch = 13;
+	ts[2].ch = TEX_ORGANIC_2;
 	SET_DFLT_TEX_PARAMS(ts[2]);
 	ts[2].filter = TS_LINEAR;
 	ts[2].wrap = TS_REPEAT;

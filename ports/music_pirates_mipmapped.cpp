@@ -377,22 +377,18 @@ static float doChannel2(float t)
 
 extern "C" {
 
-// Shadertoy-style: organic water + grey noise for fbm/stars.
-// NOTE: the non-mip baseline (music_pirates.cpp) uses Stars (21) for iChannel0.
-// That looks "filled" without mips (aliased bright texels) but under real minification
-// Stars averages to near-black — so water vanishes and only the moon/glow on the
-// right remains (looks like a half-black screen). Use Organic for the mip demo.
-//
-// Linear + mipmap → GL_LINEAR_MIPMAP_LINEAR when SW_MIPMAP_USE_LINEAR (default).
+// TEX_STARS / TEX_GRAY_NOISE_MEDIUM
+// Shadertoy: iChannel0 water/organic, iChannel1 noise for fbm/stars
+// Linear + mipmap → GL_LINEAR_MIPMAP_LINEAR
 void set_channels(texture_settings* ts)
 {
-	ts[0].ch = 21; // Organic 1 — water
+	ts[0].ch = TEX_STARS;
 	SET_DFLT_TEX_PARAMS(ts[0]);
 	ts[0].filter = TS_LINEAR;
 	ts[0].wrap = TS_REPEAT;
 	ts[0].mipmap = GL_TRUE;
 
-	ts[1].ch = 7; // Gray Noise Medium — fbm / stars
+	ts[1].ch = TEX_GRAY_NOISE_MEDIUM;
 	SET_DFLT_TEX_PARAMS(ts[1]);
 	ts[1].filter = TS_LINEAR;
 	ts[1].wrap = TS_REPEAT;

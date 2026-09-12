@@ -304,16 +304,16 @@ static float doChannel2(float t)
 
 extern "C" {
 
-// tex21 = stars, tex7 = grey noise medium
+// TEX_STARS / TEX_GRAY_NOISE_MEDIUM
 // Shadertoy: iChannel0 water/organic, iChannel1 noise for fbm/stars
 void set_channels(texture_settings* ts)
 {
-	ts[0].ch = 21;
+	ts[0].ch = TEX_STARS;
 	SET_DFLT_TEX_PARAMS(ts[0]);
 	ts[0].filter = TS_LINEAR;
 	ts[0].wrap = TS_REPEAT;
 
-	ts[1].ch = 7; // tex17.png
+	ts[1].ch = TEX_GRAY_NOISE_MEDIUM;
 	SET_DFLT_TEX_PARAMS(ts[1]);
 	ts[1].filter = TS_LINEAR;
 	ts[1].wrap = TS_REPEAT;

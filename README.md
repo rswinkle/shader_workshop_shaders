@@ -42,3 +42,4 @@ These are ports of others' shaders, often with tweaks, or a custom GUI added to 
 | [the_cave](ports/the_cave.cpp) | <img src="screenshots/the_cave.png" alt="the_cave" width="80"> | 0.8.0 | [BoyC](https://www.shadertoy.com/view/MsX3RH) |
 | [the_cave_mipmapped](ports/the_cave_mipmapped.cpp) | <img src="screenshots/the_cave_mipmapped.png" alt="the_cave_mipmapped" width="80"> | 0.8.0 | [BoyC](https://www.shadertoy.com/view/MsX3RH) |
 | [3d_engine](ports/3d_engine.cpp) | <img src="screenshots/3d_engine.png" alt="3d_engine" width="80"> | 0.8.0 | [@Xor](https://fragcoord.xyz/s/3sg6dgao) |
+| [hyperkart](ports/hyperkart.cpp) | <img src="screenshots/hyperkart.png" alt="hyperkart" width="80"> | 0.8.0 | [diatribes](https://www.shadertoy.com/view/scS3Wm) |

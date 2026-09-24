@@ -29,7 +29,7 @@ close to feature parity as possible.
 
 |  shader   | image  | last version<br>updated | original<br>developer | Online Ports |
 |-----------|--------|:-----------------------:|:---------------------:|--------------|
-| [fake_3d_cityscape](original/fake_3d_cityscape.cpp) | <img src="screenshots/fake_3d_cityscape.png" alt="fake_3d_cityscape" width="80"> | 0.8.0 | [Robert Winkler](https://github.com/rswinkle) | - |
+| [fake_3d_cityscape](original/fake_3d_cityscape.cpp) | <img src="screenshots/fake_3d_cityscape.png" alt="fake_3d_cityscape" width="80"> | 0.8.0 | [Robert Winkler](https://github.com/rswinkle) | [fragcoord](https://fragcoord.xyz/s/fm6jfu1u) [shadertoy](https://www.shadertoy.com/view/sXGGDz) |
 | [billiards_simulator](original/billiards_simulator.cpp) | <img src="screenshots/billiards_simulator.png" alt="billiards_simulator" width="80"> | 0.8.0 | [Robert Winkler](https://github.com/rswinkle) | [fragcoord](https://fragcoord.xyz/s/bbcxfb5r) [shadertoy](https://www.shadertoy.com/view/73G3Rw) |
 
 

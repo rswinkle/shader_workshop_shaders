@@ -24,11 +24,14 @@ Gallery
 ### Original Shaders
 
 These are misc. shaders I came up either for fun or to demonstrate some specific feature
-or functionality.
+or functionality. Some I've also posted to shadertoy.com and/or fragcoord.xyz with as
+close to feature parity as possible.
 
-|  shader   | image  | last version<br>updated | original<br>developer |
-|-----------|--------|:-----------------------:|:----------------------|
-| [fake_3d_cityscape](original/fake_3d_cityscape.cpp) | <img src="screenshots/fake_3d_cityscape.png" alt="fake_3d_cityscape" width="80"> | 0.8.0 | [Robert Winkler](https://github.com/rswinkle) |
+|  shader   | image  | last version<br>updated | original<br>developer | Online Ports |
+|-----------|--------|:-----------------------:|:---------------------:|--------------|
+| [fake_3d_cityscape](original/fake_3d_cityscape.cpp) | <img src="screenshots/fake_3d_cityscape.png" alt="fake_3d_cityscape" width="80"> | 0.8.0 | [Robert Winkler](https://github.com/rswinkle) | - |
+| [billiards_simulator](original/billiards_simulator.cpp) | <img src="screenshots/billiards_simulator.png" alt="billiards_simulator" width="80"> | 0.8.0 | [Robert Winkler](https://github.com/rswinkle) | [fragcoord](https://fragcoord.xyz/s/bbcxfb5r) [shadertoy](https://www.shadertoy.com/view/73G3Rw) |
+
 
 ### Ports
 

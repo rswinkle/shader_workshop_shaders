@@ -1,7 +1,7 @@
 Shader Workshop Shaders
 =======================
 
-While [Shader Workshop](shaderworkshop.com) comes with a few example shaders
+While [Shader Workshop](https://shaderworkshop.com) comes with a few example shaders
 I am constantly creating and porting new shaders to test various features, see
 how different things perform, or just for fun. I try to post some of these
 to [X](https://x.com/robertswinkler), sometimes just the shader, sometimes a

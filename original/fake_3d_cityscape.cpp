@@ -43,11 +43,9 @@ static nk_bool g_do_vignette = nk_true;
 static float g_drive_speed  = 4.0f;
 static float g_sun_glow     = 1.2f;
 
-void load_user_textures(const char* textures[NUM_2D_USER_TEXTURES],
-                        const char* music[NUM_MUSIC_USER_TEXTURES],
-                        const char* videos[NUM_VIDEO_USER_TEXTURES])
+void load_user_textures(user_media* m)
 {
-	music[0] = "https://upload.wikimedia.org/wikipedia/en/4/4f/Intheairtonight.ogg";
+	m->music[0] = "https://upload.wikimedia.org/wikipedia/en/4/4f/Intheairtonight.ogg";
 }
 
 void set_channels(texture_settings* ts)

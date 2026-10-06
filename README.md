@@ -48,3 +48,4 @@ These are ports of others' shaders, often with tweaks, or a custom GUI added to 
 | [hyperkart](ports/hyperkart.cpp) | <img src="screenshots/hyperkart.png" alt="hyperkart" width="80"> | 0.8.0 | [diatribes](https://www.shadertoy.com/view/scS3Wm) |
 | [a_quick_terrain_hack_rasterized](ports/a_quick_terrain_hack_rasterized.cpp) | <img src="screenshots/a_quick_terrain_hack_rasterized_mainImage.png" alt="a_quick_terrain_hack_rasterized" width="80"> | 0.8.0 | [mrange](https://www.shadertoy.com/view/s3fXR4) |
 | [light_limestone_cave](ports/light_limestone_cave.cpp) | <img src="screenshots/light_limestone_cave.png" alt="light_limestone_cave" width="80"> | 0.8.0 | [Enes Altun](https://fragcoord.xyz/s/lenp0a1d) |
+| [reef](ports/reef.cpp) | <img src="screenshots/reef.png" alt="reef" width="80"> | 0.8.0 | [Xor](https://fragcoord.xyz/s/rk14ca7w) |
